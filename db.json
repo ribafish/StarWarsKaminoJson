@@ -22,12 +22,5 @@
       "image_url": "https://vignette.wikia.nocookie.net/starwars/images/a/a9/Eaw_Kamino.jpg", 
       "likes": "42"
     }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
