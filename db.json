@@ -18,9 +18,9 @@
       "terrain": "Rocky", 
       "surface_water": "Large", 
       "population": "3 million", 
-      "residents": "Post 3", 
+      "residents": [], 
       "image_url": "https://vignette.wikia.nocookie.net/starwars/images/a/a9/Eaw_Kamino.jpg", 
-      "likes": "42", 
+      "likes": "42"
     }
   ],
   "comments": [
