@@ -1,0 +1,33 @@
+{
+  "planets": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 2" },
+    { "id": 4, "title": "Post 2" },
+    { "id": 5, "title": "Post 2" },
+    { "id": 6, "title": "Post 2" },
+    { "id": 7, "title": "Post 2" },
+    { "id": 8, "title": "Post 2" },
+    { "id": 9, "title": "Post 2" },
+    { "id": 10, 
+      "rotation_period": "3",
+      "orbital_period": "3",
+      "diameter": "3.00000 km", 
+      "climate": "Cool",
+      "gravity": "6g", 
+      "terrain": "Rocky", 
+      "surface_water": "Large", 
+      "population": "3 million", 
+      "residents": "Post 3", 
+      "image_url": "https://vignette.wikia.nocookie.net/starwars/images/a/a9/Eaw_Kamino.jpg", 
+      "likes": "42", 
+    }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
