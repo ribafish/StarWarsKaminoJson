@@ -10,6 +10,7 @@
     { "id": 8, "title": "Post 2" },
     { "id": 9, "title": "Post 2" },
     { "id": 10, 
+      "name" : "Kamino",
       "rotation_period": "3",
       "orbital_period": "3",
       "diameter": "3.00000 km", 
@@ -18,9 +19,43 @@
       "terrain": "Rocky", 
       "surface_water": "Large", 
       "population": "3 million", 
-      "residents": [], 
+      "residents": [
+        "https://my-json-server.typicode.com/ribafish/StarWarsKaminoJson/residents/1",
+        "https://my-json-server.typicode.com/ribafish/StarWarsKaminoJson/residents/2",
+        "https://my-json-server.typicode.com/ribafish/StarWarsKaminoJson/residents/1",
+        "https://my-json-server.typicode.com/ribafish/StarWarsKaminoJson/residents/2",
+        "https://my-json-server.typicode.com/ribafish/StarWarsKaminoJson/residents/1",
+        "https://my-json-server.typicode.com/ribafish/StarWarsKaminoJson/residents/2"
+      ], 
       "image_url": "https://vignette.wikia.nocookie.net/starwars/images/a/a9/Eaw_Kamino.jpg", 
-      "likes": "42"
+      "likes": "42",
+      "like": { "planet_id" : "10" }
+    }
+  ]
+  "residents": [
+    {
+      "id" : 1,
+      "name" : "Boba Fett",
+      "height" : "1.82m",
+      "mass" : "95kg",
+      "hair_color" : "red",
+      "skin_color" : "caucasian",
+      "eye_color" : "blue",
+      "birth_year" : "123412",
+      "gender" : "male",
+      "image_url" : "https://vignette.wikia.nocookie.net/starwars/images/7/79/Boba_Fett_HS_Fathead.png"
+    },
+    {
+      "id" : 2,
+      "name" : "Anakin Skywalker",
+      "height" : "1.88m",
+      "mass" : "85kg",
+      "hair_color" : "blond",
+      "skin_color" : "light",
+      "eye_color" : "blue",
+      "birth_year" : "13541",
+      "gender" : "male",
+      "image_url" : "https://vignette.wikia.nocookie.net/starwars/images/6/6f/Anakin_Skywalker_RotS.png"
     }
   ]
 }
